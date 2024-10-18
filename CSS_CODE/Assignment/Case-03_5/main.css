@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+}
+
+.container>div{
+    border: 2px solid black;
+}
+
+.div1{
+    background-color: red;
+}
+
+.div2{
+    background-color: green;
+}
+
+.div3{
+    background-color: orangered;
+}
+
+.div4{
+    background-color: purple;
+}
+
+.div5{
+    background-color: deeppink;
+}
+
+.div6{
+    background-color: blue;
+}
+
+.div7{
+    background-color: brown;
+}
+
+.div8{
+    background-color: plum;
+}
+
+.div9{
+    background-color: indigo;
+}
+
+.div10{
+    background-color: yellow;
+}
+
+.div11{
+    background-color: darkgrey;
+}
+
+.div12{
+    background-color: lightskyblue;
+}
+
+

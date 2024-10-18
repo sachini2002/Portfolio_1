@@ -1,0 +1,96 @@
+@keyframes backgroundChange {
+    0% {
+
+        background-color: pink }
+
+    25%{
+        background-color: #7D0879;
+    }
+    50%{
+        background-color: deeppink;
+    }
+    75%{
+        background-color: mediumpurple;
+    }
+    100% {
+        background-color: #F02EE8;
+    }
+}
+.animation-clor{
+    animation: backgroundChange 10s linear infinite; /* Adjust duration as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+
+.animation-clor h1{
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.animation-clor h3{
+    color: black;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-bottom: 50px;
+
+}
+.first-text{
+    text-align: center;
+
+
+}
+.banner {
+    width: 100%;
+    height: 75vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+
+.banner .slider {
+    position: absolute;
+    /*background-color: white;*/
+    width: 200px; /* Width of the slider container */
+    height: 250px; /* Height of the slider container */
+    top: 60%; /* Center vertically */
+    left: calc(50% - 100px);
+    transform: translate(-50%, -50%) perspective(1000px); /* Center and set perspective */
+    transform-style: preserve-3d; /* Enable 3D transformations */
+    animation: autoRun 20s linear    infinite;
+}
+
+@keyframes autoRun {
+    from {
+        transform: perspective(1000px) rotateX(16deg) rotateY(0deg);
+    }
+    to{
+        transform: perspective(1000px) rotateX(16deg) rotateY(360deg);
+    }
+}
+
+.banner .slider .item {
+    position: absolute;
+    inset: 0 0 0 0 ; /* Fill the entire slider area */
+    margin: 0 10px; /* Space between slides */
+    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(400px); /* 3D effect with increased Z translation for spacing */
+}
+
+.banner .slider .item img {
+    width: 100%; /* Full width of the item */
+    height: 100%; /* Full height of the item */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border-radius: 10px; /* Optional: Add rounded corners to images */
+}

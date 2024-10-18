@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+
+}
+
+h1{
+    width: max-content;
+    height: max-content;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.div1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 100%;
+    border-top: 5px solid red;
+
+
+}
+
+.div1:hover::before{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+
+
+
+
