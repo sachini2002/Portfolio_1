@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: burlywood;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid black;
+}
+
+.div1{
+    width: 50%;
+    height: 50vh;
+    background-color: red;
+    position: relative;
+}
+
+.div2{
+    width: 50%;
+    height: 50vh;
+    background-color: green;
+    position: relative;
+}
+
+.div3{
+    width: 50%;
+    height: 50vh;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.div4{
+    width: 50%;
+    height: 50vh;
+    background-color: deeppink;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.circle1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.circle3{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.circle4{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.midle-div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.midle-div2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.midle-div3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.midle-div4{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.midle{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+}
+
+.midlecircle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.outercircle1{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: -75px;
+    left: -60px;
+    z-index: 1000;
+}
+
+.outercircle2{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: -75px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1000;
+}
+
+.outercircle3{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: -75px;
+    right: -60px;
+    z-index: 1000;
+}
+
+.outercircle4{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -75px;
+    left: -60px;
+    z-index: 1000;
+}
+
+.outercircle5{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1000;
+}
+
+.outercircle6{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -75px;
+    right: -60px;
+    z-index: 1000;
+}
+
+
+
+
+
+

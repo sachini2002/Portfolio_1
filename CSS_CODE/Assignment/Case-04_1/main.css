@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div{
+    width: 300px;
+    height: 50px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: -270px;
+    transition: all 0.5s ease;
+
+}
+
+.section{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.icon{
+    color: white;
+    font-size: 35px;
+}
+
+h2{
+    color: white;
+}
+
+.div:hover{
+margin-left: 0;
+}
